@@ -14,10 +14,10 @@ const Index = () => {
       
       <main className="flex-1 w-full flex flex-col items-center justify-center">
         <div className="text-center mb-8">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-2">Speech-to-Text Generator</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-2">Multilingual Speech-to-Text Generator</h2>
           <p className="text-muted-foreground max-w-md mx-auto">
-            Convert your speech into text instantly. Speak clearly into your microphone
-            and watch your words appear on screen.
+            Convert your speech into text instantly. Supports English, Hindi, and Hinglish (English-Hindi mix).
+            Just select your language and start speaking.
           </p>
         </div>
         
@@ -25,7 +25,7 @@ const Index = () => {
       </main>
       
       <footer className="w-full max-w-3xl text-center text-sm text-muted-foreground py-4 mt-8">
-        <p>© 2024 WhisperScribe. Speech-to-Text and Text-to-Speech Generator.</p>
+        <p>© 2024 WhisperScribe. Multilingual Speech-to-Text and Text-to-Speech Generator.</p>
       </footer>
     </div>
   );
