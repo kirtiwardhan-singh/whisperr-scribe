@@ -25,7 +25,7 @@ const Index = () => {
       </main>
       
       <footer className="w-full max-w-3xl text-center text-sm text-muted-foreground py-4 mt-8">
-        <p>© 2024 WhisperScribe. Multilingual Speech-to-Text and Text-to-Speech Generator.</p>
+        <p>© 2025 WhisperScribe. Multilingual Speech-to-Text and Text-to-Speech Generator.</p>
       </footer>
     </div>
   );
