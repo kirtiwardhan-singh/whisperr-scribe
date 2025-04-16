@@ -225,8 +225,10 @@ export const SpeechRecognitionComponent = () => {
               onClick={toggleListening}
               variant={isListening ? "destructive" : "default"}
               size="lg"
-              className={`rounded-full h-24 w-24 dark:bg-[#403E43] ${
-                isListening ? "bg-red-500 hover:bg-red-600" : "bg-purple-500 hover:bg-purple-600"
+              className={`rounded-full h-24 w-24 ${
+                isListening 
+                  ? "bg-red-500 hover:bg-red-600 dark:bg-red-700" 
+                  : "bg-purple-500 hover:bg-purple-600"
               } relative group`}
             >
               {isListening ? (
