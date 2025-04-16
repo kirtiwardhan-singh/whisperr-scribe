@@ -201,7 +201,7 @@ export const SpeechRecognitionComponent = () => {
     <Card className="w-full max-w-3xl glass-container">
       <CardContent className="p-6">
         <div className="space-y-4">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center p-4 rounded-lg dark:bg-[#403E43]">
             <h3 className="text-lg font-medium">Select Language</h3>
             <Select value={selectedLanguage} onValueChange={handleLanguageChange}>
               <SelectTrigger className="w-[250px]">
@@ -225,7 +225,7 @@ export const SpeechRecognitionComponent = () => {
               onClick={toggleListening}
               variant={isListening ? "destructive" : "default"}
               size="lg"
-              className={`rounded-full h-24 w-24 ${
+              className={`rounded-full h-24 w-24 dark:bg-[#403E43] ${
                 isListening ? "bg-red-500 hover:bg-red-600" : "bg-purple-500 hover:bg-purple-600"
               } relative group`}
             >
